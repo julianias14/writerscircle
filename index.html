@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Writer's Circle</title>
+		<link rel="stylesheet" href="file:///Users/juliania/Downloads/writerscircle.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<div class="navbar">
+				<img src="file:///Users/juliania/Downloads/103-1037450_transparent-quill-and-inkwell-clipart-transparent-background-feather-removebg-preview.png" class="logo">
+				<nav>
+					<ul>
+						<li><a href="file:///Users/juliania/Downloads/officialwriterscircle.html">Home</li>
+						<li><a href="file:///Users/juliania/Downloads/contestwinners.html">Contest Winners</li>
+						<li><a href="file:///Users/juliania/Downloads/aboutus.html">About Us</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="row">
+				<div class="col">
+					<a class="titlefont">Writer's Circle</a>
+					<h1>Have any questions? Please feel free to e-mail Juliania and Mary :)</h1>
+					<ul>
+						<h3>
+							Juliania's e-mail: @
+						</h3>
+						<h3>
+							Mary's e-mail: @
+						</h3>
+					</ul>
+					<button class="trigger">How to Join</button>
+					<div class="modal">
+						<div class="modal-content">
+							<span class="close-button">×</span>
+							<h1>Interested in joining Writer's Circle?</h1>
+							<h5>We would love to have you! Please take a moment to complete the steps below before your first meeting if possible:</h5>
+							<ol>
+								<li>Join our google classroom! The code is: [code]</li>
+								<li>Sign up for our Wix website!</li>
+							</ol>
+							<h5>Hope to see you at our next meeting on Tuesday!</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card card1">
+						<h5>Information</h5>
+						<p>Meetings are every Tuesday</p>
+						<p>2:30-3:30</p>
+						<p>Room: #</p>
+					</div>
+					<a href="http://google.com" target=_blank>
+						<div class="card card2">
+							<h5>Google Classroom</h5>
+							<p>Here is the link to our Google Classroom! View announcements here</p>
+						</div>
+					<a href="http://google.com" target=_blank>
+					<div class="card card3">
+						<h5>Website</h5>
+						<p>Here is the link to our Wix website! Submit writing pieces and works here</p>
+					</div>
+					<a href="file:///Users/juliania/Downloads/forms.html" target=_blank>
+					<div class="card card4">
+						<h5>Google Forms</h5>
+						<p>Here is the link to the collection of all of our google forms!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<script>
+			const modal = document.querySelector(".modal");
+			const trigger = document.querySelector(".trigger");
+			const closeButton = document.querySelector(".close-button");
+
+			function toggleModal() {
+				modal.classList.toggle("show-modal");
+			}
+
+			function windowOnClick(event) {
+				if (event.target === modal) {
+					toggleModal();
+				}
+			}
+
+			trigger.addEventListener("click", toggleModal);
+			closeButton.addEventListener("click", toggleModal);
+			window.addEventListener("click", windowOnClick);
+
+		</script>
+	</body>
+</html>
