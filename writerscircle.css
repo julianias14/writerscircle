@@ -101,11 +101,11 @@ button{
 }
 
 .card1{
-	background-image: url(writing%20pic%201.jpeg);
+	background-image: url(writing_pic_1.jpeg);
 }
 
 .card2{
-	background-image: url(google%20classroom.png);
+	background-image: url(google_classroom.png);
 }
 
 .card3{
@@ -114,7 +114,7 @@ button{
 }
 
 .card4{
-	background-image: url(google%20forms.webp);
+	background-image: url(google_forms.webp);
 }
 
 .card:hover{
